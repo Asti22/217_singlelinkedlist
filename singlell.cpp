@@ -167,7 +167,11 @@ int main (){
                 }
                 else 
                   cout << "Data tidk ditemukan "<<endl;
-                  break 
+                  break
+                case 3: 
+                traverse();
+                break;
+                 
            }     
          }
     }
