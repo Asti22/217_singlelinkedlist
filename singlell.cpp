@@ -140,7 +140,24 @@ int main (){
             cout << "4. Cari Data "<<endl;
             cout << "5. Keluar " <<endl;
             cout << "pilihan:";
-            cin >> pilihan;      
+            cin >> pilihan; 
+            switch (pilihan)
+            {
+                case 1: 
+                addNode();
+                cout <<"Data Berhasil Ditambhakan"<<endl;
+                system("pause");
+                system ("cls");
+                break;
+                case 2:
+                if (listEmpty())
+                {
+                    cout <<"List Kosong "<<endl;
+                    system ("pause");
+                    system ( "cls");
+                    break
+                }
+           }     
          }
     }
      
